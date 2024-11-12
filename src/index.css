@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.font{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+}
+
+.buttonhover {
+    width: 250px;
+    height: 52px;
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  
+  .buttonhover:hover {
+    width: 280px;
+    height: 60px;
+  }
+
+  .buttonhover-2 {
+    width: 180px;
+    height: 37px;
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  
+  .buttonhover-2:hover {
+    width: 190px;
+    height: 45px;
+  }
+
+  .buttonhover-3 {
+    width: 75px;
+    height: 37px;
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  
+  .buttonhover-3:hover {
+    width: 80px;
+    height: 45px;
+  }
+  
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s ease-out forwards;
+  }
+  
+  
